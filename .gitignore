@@ -1,0 +1,12 @@
+# Solver state - large, regenerable, not reviewable
+*.cas.h5
+*.dat.h5
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store

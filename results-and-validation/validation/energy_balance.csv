@@ -1,0 +1,8 @@
+case,mdot_in_kg_s,mdot_out_kg_s,net_imbalance_kg_s,imbalance_vs_mdot_ppm,T_in_C,T_out_C,dT_air_K,Q_air_W,Q_board_W,Q_cpu_die_W,Q_gpu_die_W,Q_air_over_Q_board_pct
+eco-flat-desk (eco.CSV),3.468767e-03,3.468718e-03,4.9260e-08,14.2010,30.00,34.86,4.86,16.957,18.000,7.329,3.555,94.20
+balanced-flat-desk (balanced-flat-desk.CSV),3.179703e-03,3.179644e-03,5.9140e-08,18.5992,31.00,35.32,4.32,13.830,14.759,7.935,1.693,93.71
+balanced-raised-stand (bal-stand.CSV),4.914086e-03,4.914025e-03,6.0930e-08,12.3991,29.00,31.93,2.93,14.477,15.272,8.422,1.663,94.79
+balanced-cooling-pad-on (bal-cooling-pad-on.CSV),5.492214e-03,5.492153e-03,6.0960e-08,11.0993,28.50,31.16,2.66,14.699,15.342,8.333,1.806,95.80
+balanced-cooling-pad-off (bal-cooling-pad-off.CSV),4.239604e-03,4.239490e-03,1.1362e-07,26.7997,32.00,37.57,5.57,23.767,25.638,11.992,4.961,92.70
+performance-flat-desk (performance-flat-desk.CSV),5.781278e-03,5.781190e-03,8.8450e-08,15.2994,30.00,32.62,2.62,15.243,16.129,9.542,1.467,94.51
+performance-max (performance-max.CSV),1.002100e-02,1.002090e-02,9.8200e-08,9.7994,32.00,39.18,7.18,72.385,76.125,27.132,28.130,95.09

@@ -1,0 +1,8 @@
+case,cpu_max_C,heatpipe_max_C,fin_max_C,drop cpu->heatpipe K,drop heatpipe->fin K,fin_to_die_rise_ratio_pct
+eco-flat-desk,53.642,52.719,51.641,+0.923,+1.077,91.54
+balanced-flat-desk,60.842,59.850,58.692,+0.992,+1.158,92.79
+balanced-raised-stand,57.518,56.474,55.253,+1.044,+1.221,92.06
+balanced-cooling-pad-on,58.482,57.449,56.249,+1.033,+1.200,92.55
+balanced-cooling-pad-off,72.821,71.286,69.524,+1.535,+1.763,91.92
+performance-flat-desk,58.321,57.119,55.726,+1.202,+1.393,90.84
+performance-max,95.242,91.823,87.808,+3.419,+4.016,88.24

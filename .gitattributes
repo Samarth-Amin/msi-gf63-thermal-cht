@@ -1,0 +1,24 @@
+# Enforce LF line endings for all text files across platforms
+* text=auto eol=lf
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.pyc binary
+
+# Data and code
+*.CSV text eol=lf
+*.csv text eol=lf
+*.out text eol=lf
+*.json text eol=lf
+*.jou text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

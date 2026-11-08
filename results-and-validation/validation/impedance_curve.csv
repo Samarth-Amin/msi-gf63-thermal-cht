@@ -1,0 +1,8 @@
+case,mdot_signed_kg_s,mdot_abs_kg_s,delta_P_Pa,K_dP_over_mdot2_per_case,fit_K_global,fit_exponent_n,fit_R2,dP_predicted_at_mdot_Pa
+Eco Mode (eco.CSV),3.468767e-03,3.468767e-03,17.8200,1481008.1277,1409627.5441,1.9922,0.99966,17.7252
+Balanced Flat Desk (balanced-flat-desk.CSV),3.179703e-03,3.179703e-03,15.0600,1489538.9313,1409627.5441,1.9922,0.99966,14.9042
+Balanced Raised Stand (bal-stand.CSV),4.914086e-03,4.914086e-03,35.4200,1466773.4881,1409627.5441,1.9922,0.99966,35.4772
+Balanced Cooling Pad ON (bal-cooling-pad-on.CSV),5.492214e-03,5.492214e-03,43.0200,1426183.8176,1409627.5441,1.9922,0.99966,44.2775
+Balanced Cooling Pad OFF (bal-cooling-pad-off.CSV),4.239604e-03,4.239604e-03,33.7800,1879356.0171,1409627.5441,1.9922,0.99966,26.4371
+Performance Flat Desk (performance-flat-desk.CSV),5.781278e-03,5.781278e-03,49.1200,1469638.9418,1409627.5441,1.9922,0.99966,49.0414
+Performance-Max (Stress),1.002100e-02,1.002100e-02,148.6500,1480276.3115,1409627.5441,1.9922,0.99966,146.7165

@@ -1,0 +1,648 @@
+{
+  "cases": {
+    "balanced-cooling-pad-off": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-off/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "balanced-cooling-pad-on": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/balanced-cooling-pad-on/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "balanced-flat-desk": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/balanced-flat-desk/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "balanced-raised-stand": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/balanced-raised-stand/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "eco-flat-desk": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/eco-flat-desk/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/eco-flat-desk/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/eco-flat-desk/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/eco-flat-desk/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/eco-flat-desk/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/eco-flat-desk/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/eco-flat-desk/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "performance-flat-desk": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/performance-flat-desk/air_inlet_mass_flow-rfile.out",
+        "rows": 319,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/air_inlet_temp-rfile.out",
+        "rows": 319,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/performance-flat-desk/air_outlet_mass_flow-rfile.out",
+        "rows": 319,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/air_outlet_temp-rfile.out",
+        "rows": 319,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/performance-flat-desk/cpu_heat_transfer-rfile.out",
+        "rows": 319,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/cpu_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/performance-flat-desk/fan_pressure_drop-rfile.out",
+        "rows": 319,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/fin_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/performance-flat-desk/gpu_heat_transfer-rfile.out",
+        "rows": 319,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/gpu_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/heatpipe_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/performance-flat-desk/net_mass_imbalance-rfile.out",
+        "rows": 319,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/nvme_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/pch_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/performance-flat-desk/vram_max_temp-rfile.out",
+        "rows": 319,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    },
+    "performance-max": {
+      "air_inlet_mass_flow": {
+        "source": "results-and-validation/monitors/performance-max/air_inlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_mass_flow",
+        "kelvin": false
+      },
+      "air_inlet_temp": {
+        "source": "results-and-validation/monitors/performance-max/air_inlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_inlet_temp",
+        "kelvin": false
+      },
+      "air_outlet_mass_flow": {
+        "source": "results-and-validation/monitors/performance-max/air_outlet_mass_flow-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_mass_flow",
+        "kelvin": false
+      },
+      "air_outlet_temp": {
+        "source": "results-and-validation/monitors/performance-max/air_outlet_temp-rfile.out",
+        "rows": 300,
+        "original_name": "air_outlet_temp",
+        "kelvin": false
+      },
+      "cpu_heat_transfer": {
+        "source": "results-and-validation/monitors/performance-max/cpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_heat_transfer",
+        "kelvin": false
+      },
+      "cpu_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/cpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "cpu_max_temp",
+        "kelvin": false
+      },
+      "fan_pressure_drop": {
+        "source": "results-and-validation/monitors/performance-max/fan_pressure_drop-rfile.out",
+        "rows": 300,
+        "original_name": "fan_pressure_drop",
+        "kelvin": false
+      },
+      "fin_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/fin_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "fin_max_temp",
+        "kelvin": false
+      },
+      "gpu_heat_transfer": {
+        "source": "results-and-validation/monitors/performance-max/gpu_heat_transfer-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_heat_transfer",
+        "kelvin": false
+      },
+      "gpu_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/gpu_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "gpu_max_temp",
+        "kelvin": false
+      },
+      "heatpipe_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/heatpipe_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "heatpipe_max_temp",
+        "kelvin": false
+      },
+      "net_mass_imbalance": {
+        "source": "results-and-validation/monitors/performance-max/net_mass_imbalance-rfile.out",
+        "rows": 300,
+        "original_name": "net_mass_imbalance",
+        "kelvin": false
+      },
+      "nvme_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/nvme_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "nvme_max_temp",
+        "kelvin": false
+      },
+      "pch_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/pch_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "pch_max_temp",
+        "kelvin": false
+      },
+      "vram_max_temp": {
+        "source": "results-and-validation/monitors/performance-max/vram_max_temp-rfile.out",
+        "rows": 300,
+        "original_name": "vram_max_temp",
+        "kelvin": false
+      }
+    }
+  }
+}
